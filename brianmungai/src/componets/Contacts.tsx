@@ -9,8 +9,6 @@ import BackgroundImage from "../assets/icons8-mail-512.png";
 const Contacts = () => {
   const form = useRef(null); // Initialize with null
 
-  const [popupVisible, setPopupVisible] = useState(false);
-
   const sendEmail = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
