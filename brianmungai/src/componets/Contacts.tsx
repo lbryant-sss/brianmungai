@@ -32,7 +32,7 @@ const Contacts = () => {
         <div className="popup">
             <span>Message Sent Successfully!</span>
             <img src={TaskDone} alt="Task Done" className='taskdone-icon' />
-            <img src={CloseTask} alt="Close Task" className='close-popup' onClick={() => setPopupVisible(false)} />
+            <img src={CloseTask} alt="Close Task" className='close-popup' />
         </div>
         
         <div className="contact-wrapper">
